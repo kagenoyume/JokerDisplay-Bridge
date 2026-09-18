@@ -25,9 +25,9 @@ This mod uses Basic Buttons as a dependency/API and does not include its source
 code.
 
 ### JokerDisplay Bridge
-- Idea: Tegar
+- Idea: TeriTheFish 
 - Implementation: ChatGPT
-- Testing: Tegar
+- Testing: TeriTheFish 
 
 ## About
 
