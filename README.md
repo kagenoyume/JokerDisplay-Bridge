@@ -1,31 +1,41 @@
-# JokerDisplay Basic Buttons
+# JokerDisplay Bridge
 
-A small compatibility mod for Android/desktop Balatro.
+Adds a touch-friendly HIDE/SHOW button to JokerDisplay using the Basic Buttons API.
 
-It requires:
-- Basic Buttons 0.1.4+
-- JokerDisplay 2.0.1+
+## Requirements
 
-When a Joker has JokerDisplay initialized, a **JokerDisplay — HIDE/SHOW** button is added to the normal Joker buttons.
+- [JokerDisplay](https://github.com/nh6574/JokerDisplay)
+  - Created by nh6574
+  - Licensed under GPL-3.0
+- [Basic Buttons](https://github.com/wingedcatgirl/basic-buttons)
+  - Created by wingedcatgirl
 
-This first version intentionally uses JokerDisplay's own:
-`Card:joker_display_toggle()`
+## Credits
 
-It does not replace or patch JokerDisplay's hide/show system.
+### JokerDisplay
+Created by nh6574.
 
-## Install
+This mod uses JokerDisplay's existing toggle functionality and does not include
+JokerDisplay's source code.
 
-Put the folder `JokerDisplayBasicButtons` inside your Balatro `Mods` folder.
+### Basic Buttons
+Created by wingedcatgirl.
 
-The folder should contain:
-- `JokerDisplayBasicButtons.json`
-- `JokerDisplayBasicButtons.lua`
+This mod uses Basic Buttons as a dependency/API and does not include its source
+code.
 
-## Important
+### JokerDisplay Bridge
+- Idea: Tegar
+- Implementation: ChatGPT
+- Testing: Tegar
 
-If the button does not appear, check the Steamodded log for:
-- `basic_buttons`
-- `JokerDisplay`
-- `JokerDisplayBasicButtons`
+## About
 
-The next possible version can experiment with double-tap/touch input instead of a visible button.
+This is a small compatibility bridge intended especially for Android/touch
+users. It adds a button to selected Jokers that toggles JokerDisplay's
+information display.
+
+## Notes
+
+Some modded Jokers may not have complete JokerDisplay information. This bridge
+does not add JokerDisplay compatibility to those Jokers.
