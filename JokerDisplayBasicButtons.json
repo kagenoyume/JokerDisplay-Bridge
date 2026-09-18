@@ -1,0 +1,17 @@
+{
+  "id": "JokerDisplayBasicButtons",
+  "name": "JokerDisplay Basic Buttons",
+  "display_name": "JD Touch Button",
+  "author": [
+    "ChatGPT"
+  ],
+  "description": "Adds a Basic Buttons touch button to Jokers for toggling JokerDisplay.",
+  "prefix": "JDBB",
+  "main_file": "JokerDisplayBasicButtons.lua",
+  "priority": 0,
+  "version": "0.1.0",
+  "dependencies": [
+    "basic_buttons",
+    "JokerDisplay"
+  ]
+}
